@@ -10,8 +10,9 @@
         <header>
             Homepage
             <nav>
-                <a href="https://www.google.com">Wanna search something, click here!</a><br>
-                <a href="https://www.youtube.com/">Wanna watch a vedio, click here!</a><br>
+                <a href="https://www.google.com" target="_blank">Wanna search something, click here!</a><br>
+                <a href="https://www.youtube.com/" target="_blank">Wanna watch a vedio, click here!</a><br>
+                <img src="elephant-small.PNG" alt="small-elephant" style="border: 3px solid; border-color: black; align-content: center;"
             </nav>
         </header>
         <section>
@@ -38,7 +39,11 @@
                         <input type="radio" value="others" name="gender">Others
                     </div>
                     <div>
-                        <input type="submit"
+                        <label for="message" >Any Message:</label>
+                        <textarea id="message" min="5" max="50" placeholder="type anything here..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit">
                     </div>
                 </form>
             </article>
